@@ -1,0 +1,232 @@
+body{
+	/*background: url(../img/mapa1.jpg);*/
+}
+@media screen and (max-width: 1800px) and (min-width: 990px){
+	header{
+
+	}
+	body{
+		color: white;
+		background: url(../img/mapa1.jpg);
+		
+	}
+
+	nav{
+		background-color:#0D0D0D; 
+		position: fixed;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: auto;
+		z-index: 99;
+	}
+	nav ul{
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		display: inline-block;
+		margin-left: 25px;
+		vertical-align: bottom;
+	}
+
+	nav ul > li {
+		display: inline-block;
+		list-style: none;
+		background-color: #0D0D0D;
+		padding:18px 11px;
+		margin-right:-7px;
+		font-size: 25px;
+		font-weight:bold;
+	}
+
+	li a{
+		text-decoration: none;
+		display: block;
+		padding: 0px;
+		color: white;
+	}
+
+	#inicio{
+		background: url(../img/GYM31.jpg);
+		text-align: center;
+		padding: 80px;
+		
+	}
+
+	.ubicacion{
+		display: inline-block;
+		padding: 0 25px;
+		margin-right: 20px;
+		text-align: center;
+		width: 95%;
+	}
+}
+
+@media screen and (max-width: 990px) and (min-width: 600px){
+	header{
+
+	}
+		body{
+			color: white;
+			background: url(../img/mapa3.png);
+
+
+		}
+		nav{
+			background-color:#F2C1B6; 
+			position: fixed;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: auto;
+			z-index: 99;
+		}
+		nav ul{
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: inline-block;
+			margin-left: 25px;
+			vertical-align: bottom;
+		}
+
+		nav ul > li {
+			display: inline-block;
+			list-style: none;
+			background-color:#F2C1B6 ;
+			padding:18px 11px;
+			margin-right:-7px;
+			font-size: 20px;
+			font-weight:bold;
+		}
+
+		li a{
+			display: block;
+			padding: 0px;
+			text-decoration: none;
+			color: white;
+		}
+
+		#inicio{
+			background: url(../img/sport4.jpg);
+			text-align: center;
+			padding: 60px;
+			
+		}
+
+		.ubicacion{
+			display: inline-block;
+			padding: 40px;
+			margin-right: 40px;
+			text-align: center;
+			width: 40%;
+		}
+
+		}
+
+@media screen and (max-width: 600px) and (min-width: 0px){
+	header{
+
+	}
+	body{
+			color: white;
+			background: url(../img/mapa2.jpg);
+			
+		
+
+		}
+		
+		nav{
+			background-color:#038C73; 
+			position: fixed;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: auto;
+			z-index: 99;
+		}
+		nav ul{
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: inline-block;
+			margin-left: 25px;
+			vertical-align: bottom;
+		}
+
+		nav ul > li {
+			display: inline-block;
+			list-style: none;
+			background-color: #038C73;
+			padding:18px 11px;
+			margin-right:-7px;
+			font-size: 20px;
+			font-weight:bold;
+		}
+
+		li a{
+			color: white;
+			display: block;
+			padding: 0px;
+			text-decoration: none;
+		}
+
+		#inicio{
+			background: url(../img/GYM3.jpg);
+			text-align: center;
+			padding: 100px;
+
+
+		}
+
+		.ubicacion{
+			display: inline-block;
+			padding: 30px;
+			margin-right: 0px;
+			text-align: center;
+			width: 45%;
+		}
+
+		iframe {
+		 max-width: 350%;
+		 height: 350px;
+		 width:350px;
+		 text-align: center;
+		}
+
+	}
+
+
+
+#primera, header, footer{
+	text-align: center;
+}
+
+
+#segunda{
+	padding-top: 80px;
+	padding-bottom: 70px;
+	border-bottom: 2px solid #dfe2e6;
+}
+
+h4{
+	text-align: center;
+	color: black;
+	font-size: 35px;
+}
+h1{
+font-size: 60px;
+padding:80px 0px 0px 0px;
+color: #F2B705;
+text-align: center;
+font: 700 60px Roboto,helvetica,arial,sans-serif;
+}
+footer{
+	padding-top: 30px;
+	padding-bottom: 60px;
+	border-bottom: 10px solid #ffa949;
+	font-size: 20px;
+}
+.p2{
+	color;black;
+}

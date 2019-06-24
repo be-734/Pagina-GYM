@@ -1,0 +1,394 @@
+body{
+	color: #057d7b;
+	margin: 0;
+	font-size: 16px;/*1em/1.5;*/
+}
+@media screen and (max-width: 1800px) and (min-width: 990px){
+	header{
+		padding-top: 170px;
+		height: 850px;
+		background: 
+		url("../img/servicios4.jpg") no-repeat center;
+		background-size: cover;
+	}
+	body{
+		color: white;
+		
+	}
+
+	nav{
+		background-color:#0D0D0D; 
+		position: fixed;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: auto;
+		z-index: 99;
+	}
+	nav ul{
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		display: inline-block;
+		margin-left: 25px;
+		vertical-align: bottom;
+	}
+
+	nav ul > li {
+		display: inline-block;
+		list-style: none;
+		background-color: #0D0D0D;
+		padding:18px 11px;
+		margin-right:-7px;
+		font-size: 25px;
+		font-weight:bold;
+	}
+
+	li a{
+		text-decoration: none;
+		display: block;
+		padding: 0px;
+		color:white;
+	}
+
+	.titulo{
+		color: #D90B56;
+		font-size: 1.6em;
+		letter-spacing: 0.6em;
+		padding-bottom: 10px;
+	}
+	#primera{
+		width: 75%;
+		padding-left: 50px;
+		padding-right: 50px;
+		margin: auto;
+		max-width: 960px;
+	}
+
+	.perro{
+		padding: 2px 16px
+		color: #F2F2F2;
+		text-align: center;
+		padding:18% 24%;
+		border-top: 10px solid #ffa949;
+		margin: 105px 0 60px*/;
+		background: url("../img/perro10.jpg") no-repeat center;
+		
+	}
+	.spa{
+		padding: 2px 16px
+		color: #F2F2F2;
+		text-align: center;
+		padding:18% 24%;
+		border-top: 10px solid #ffa949;
+		margin: 105px 0 60px*/;
+		background: url("../img/spa20.jpg") no-repeat center;
+		
+	}
+
+	.clases{
+			padding: 2px 16px
+			color: #F2F2F2;
+			text-align: center;
+			padding:18% 24%;
+			border-top: 10px solid #ffa949;
+			margin: 105px 0 60px*/;
+			background: url("../img/clases.jpg") no-repeat center;
+			
+		}
+		.entrenadores{
+			padding: 2px 16px
+			color: #F2F2F2;
+			text-align: center;
+			padding:18% 24%;
+			border-top: 10px solid #ffa949;
+			margin: 105px 0 60px*/;
+			background: url("../img/entrenador.jpg") no-repeat center;
+			
+		}
+
+		p{
+			font-size: 15px;
+		}
+		.boton1{
+			text-align: center;
+			color: white;
+			background-color: grey;
+			font-size: 15px;
+			text-decoration: none;
+		}
+
+}
+
+@media screen and (max-width: 990px) and (min-width: 600px){
+	header{
+		padding-top: 170px;
+		height: 850px;
+		background: 
+		url("../img/servicios7.jpg") no-repeat center;
+		background-size: cover;
+	}
+		body{
+			color: white;
+			
+			
+
+		}
+		nav{
+			background-color:#F2C1B6; 
+			position: fixed;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: auto;
+			z-index: 99;
+		}
+		nav ul{
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: inline-block;
+			margin-left: 25px;
+			vertical-align: bottom;
+		}
+
+		nav ul > li {
+			display: inline-block;
+			list-style: none;
+			background-color:#F2C1B6 ;
+			padding:18px 11px;
+			margin-right:-7px;
+			font-size: 20px;
+			font-weight:bold;
+		}
+
+		li a{
+			text-decoration: none;
+			display: block;
+			padding: 0px;
+			color: white;
+			
+		}
+	.titulo{
+		color:#D90B56;
+		font-size: 1.6em;
+		letter-spacing: 0.6em;
+		padding-bottom: 10px;
+	}
+
+	#primera{
+		width: 75%;
+		padding-left: 50px;
+		padding-right: 50px;
+		margin: auto;
+		max-width: 960px;
+	}
+	.perro{
+		padding: 2px 16px
+		color: #F2F2F2;
+		text-align: center;
+		padding:18% 24%;
+		border-top: 10px solid #ffa949;
+		margin: 105px 0 60px*/;
+		background: url("../img/perro10.jpg") no-repeat center;
+		border-radius: 50%;
+	}
+	.spa{
+		padding: 2px 16px
+		color: #F2F2F2;
+		text-align: center;
+		padding:18% 24%;
+		border-top: 10px solid #ffa949;
+		margin: 105px 0 60px*/;
+		background: url("../img/spa20.jpg") no-repeat center;
+		border-radius: 50%;
+	}
+
+	.clases{
+			padding: 2px 16px
+			color: #F2F2F2;
+			text-align: center;
+			padding:18% 24%;
+			border-top: 10px solid #ffa949;
+			margin: 105px 0 60px*/;
+			background: url("../img/clases.jpg") no-repeat center;
+			border-radius: 50%;
+		}
+		.entrenadores{
+			padding: 2px 16px
+			color: #F2F2F2;
+			text-align: center;
+			padding:18% 24%;
+			border-top: 10px solid #ffa949;
+			margin: 105px 0 60px*/;
+			background: url("../img/entrenador.jpg") no-repeat center;
+			border-radius: 50%;
+		}
+		.boton1{
+			text-align: center;
+			color: white;
+			background-color: grey;
+			font-size: 15px;
+			text-decoration: none;
+		}
+
+}
+
+@media screen and (max-width: 600px) and (min-width: 0px){
+	header{
+		padding-top: 170px;
+		height: 850px;
+		background: 
+		url("../img/servicios6.jpg") no-repeat center;
+		background-size: cover;
+	}
+	body{
+			color: white;
+			
+			
+
+		}
+		
+		nav{
+			background-color:#038C73; 
+			position: fixed;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: auto;
+			z-index: 99;
+		}
+		nav ul{
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: inline-block;
+			margin-left: 25px;
+			vertical-align: bottom;
+		}
+
+		nav ul > li {
+			display: inline-block;
+			list-style: none;
+			background-color: #038C73;
+			padding:18px 11px;
+			margin-right:-7px;
+			font-size: 20px;
+			font-weight:bold;
+		}
+
+		li a{
+			color: white;
+			display: block;
+			padding: 0px;
+			text-decoration: none;
+		}
+
+		iframe{
+			/*position: absolute;*/
+			height: 1000%;
+			width: 100%;
+			top: 40px;
+			left: 0;
+		}
+	.titulo{
+		color: #D90B56;
+		font-size: 1.6em;
+		letter-spacing: 0.6em;
+		padding-bottom: 10px;
+	}
+	.perro{
+		padding: 2px 16px
+		color: #F2F2F2;
+		text-align: center;
+		padding:18% 24%;
+		border-top: 10px solid #ffa949;
+		margin: 105px 0 60px*/;
+		background: url("../img/perro10.jpg") no-repeat center;
+		border-radius: 50%;
+	}
+	.spa{
+		padding: 2px 16px
+		color: #F2F2F2;
+		text-align: center;
+		padding:18% 24%;
+		border-top: 10px solid #ffa949;
+		margin: 105px 0 60px*/;
+		background: url("../img/spa20.jpg") no-repeat center;
+		border-radius: 50%;
+	}
+
+	.clases{
+			padding: 2px 16px
+			color: #F2F2F2;
+			text-align: center;
+			padding:18% 24%;
+			border-top: 10px solid #ffa949;
+			margin: 105px 0 60px*/;
+			background: url("../img/clases.jpg") no-repeat center;
+			border-radius: 50%;
+		}
+		.entrenadores{
+			padding: 2px 16px
+			color: #F2F2F2;
+			text-align: center;
+			padding:18% 24%;
+			border-top: 10px solid #ffa949;
+			margin: 105px 0 60px*/;
+			background: url("../img/entrenador.jpg") no-repeat center;
+			border-radius: 50%;
+		}
+
+		.boton1{
+			text-align: center;
+			color: white;
+			background-color: grey;
+			font-size: 15px;
+			text-decoration: none;
+		}
+
+
+}
+
+
+h1{
+	font-size: 5em;
+	color: #A65A53;
+	text-transform: uppercase;
+	margin: 12px 0 0;
+	text-shadow: 0px 10px 10px rgba(0,0,0,0.8);
+}
+
+h2{
+	font-size: 3em;
+	margin: 20px 0 0.5em;
+	color: #D9D0C1;
+}
+
+
+
+#primera, header, footer{
+	text-align: center;
+}
+
+#primera{
+	padding-top: 60px;
+	padding-bottom: 60px;
+	border-bottom: 10px solid #ffa949;
+}
+
+footer{
+	padding-top: 30px;
+	padding-bottom: 60px;
+	border-bottom: 10px solid #ffa949;
+	font-size: 20px;
+}
+.p2{
+	color;black;
+}
+
+
+
+
+
+

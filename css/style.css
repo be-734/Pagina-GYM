@@ -1,0 +1,354 @@
+body{
+	color: #057d7b;
+	margin: 0;
+	font-size: 16px;/*1em/1.5;*/
+}
+@media screen and (max-width: 1800px) and (min-width: 990px){
+	header{
+		padding-top: 170px;
+		height: 850px;
+		background: 
+		linear-gradient(#0D0D0D, transparent 90%),
+		linear-gradient(0deg, white/*#F2AE72*/,transparent),
+		url("../img/meditacion1.jpg") no-repeat center;
+		background-size: cover;
+	}
+	body{
+		color: white;
+		
+	}
+
+	nav{
+		background-color:#0D0D0D; 
+		position: fixed;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: auto;
+		z-index: 99;
+	}
+	nav ul{
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		display: inline-block;
+		margin-left: 25px;
+		vertical-align: bottom;
+	}
+
+	nav ul > li {
+		display: inline-block;
+		list-style: none;
+		background-color: #0D0D0D;
+		padding:18px 11px;
+		margin-right:-7px;
+		font-size: 25px;
+		font-weight:bold;
+	}
+
+	li a{
+		text-decoration: none;
+		display: block;
+		padding: 0px;
+		color: white;
+	}
+
+	.titulo{
+		color: white;
+		font-size: 1.6em;
+		letter-spacing: 0.6em;
+		padding-bottom: 10px;
+	}
+	#primera, #segunda{
+		width: 75%;
+		padding-left: 50px;
+		padding-right: 50px;
+		margin: auto;
+		max-width: 960px;
+	}
+
+	.hotel, .tips{
+		width: 45%;
+	}
+	.hotel{
+		float: left;
+	}
+	.tips{
+		float: right;
+	}
+
+	.video{
+		text-align: center;
+		font: auto;
+	}
+
+}
+
+@media screen and (max-width: 990px) and (min-width: 600px){
+	header{
+		padding-top: 170px;
+		height: 850px;
+		background: 
+		linear-gradient(#F2C1B6, transparent 90%),
+		linear-gradient(0deg, white/*#D9411E*/,transparent),
+		url("../img/meditation-2240777_1280.jpg") no-repeat center;
+		background-size: cover;
+	}
+		body{
+			color: white;
+			
+			
+
+		}
+		nav{
+			background-color:#F2C1B6; 
+			position: fixed;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: auto;
+			z-index: 99;
+		}
+		nav ul{
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: inline-block;
+			margin-left: 25px;
+			vertical-align: bottom;
+		}
+
+		nav ul > li {
+			display: inline-block;
+			list-style: none;
+			background-color:#F2C1B6 ;
+			padding:18px 11px;
+			margin-right:-7px;
+			font-size: 20px;
+			font-weight:bold;
+		}
+
+		li a{
+			text-decoration: none;
+			display: block;
+			padding: 0px;
+			color: white;
+			
+		}
+	.titulo{
+		color: white;
+		font-size: 1.6em;
+		letter-spacing: 0.6em;
+		padding-bottom: 10px;
+	}
+
+	#primera, #segunda{
+		width: 75%;
+		padding-left: 50px;
+		padding-right: 50px;
+		margin: auto;
+		max-width: 960px;
+	}
+
+}
+
+@media screen and (max-width: 600px) and (min-width: 0px){
+	header{
+		padding-top: 170px;
+		height: 850px;
+		background: 
+		linear-gradient(#038C73, transparent 90%),
+		linear-gradient(0deg, white/*#F2955E*/,transparent),
+		url("../img/run3.jpg") no-repeat center;
+		background-size: cover;
+	}
+	body{
+			color: white;
+			
+			
+
+		}
+		
+		nav{
+			background-color:#038C73; 
+			position: fixed;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: auto;
+			z-index: 99;
+		}
+		nav ul{
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: inline-block;
+			margin-left: 25px;
+			vertical-align: bottom;
+		}
+
+		nav ul > li {
+			display: inline-block;
+			list-style: none;
+			background-color: #038C73;
+			padding:18px 11px;
+			margin-right:-7px;
+			font-size: 20px;
+			font-weight:bold;
+		}
+
+		li a{
+			color: white;
+			display: block;
+			padding: 0px;
+			text-decoration: none;
+		}
+
+		iframe{
+			height: 1000%;
+			width: 100%;
+			top: 40px;
+			left: 0;
+		}
+	.titulo{
+		color: white;
+		font-size: 1.6em;
+		letter-spacing: 0.6em;
+		padding-bottom: 10px;
+	}
+}
+
+
+h1{
+	font-size: 5em;
+	color: white;
+	text-transform: uppercase;
+	margin: 12px 0 0;
+	text-shadow: 0px 10px 10px rgba(0,0,0,0.8);
+}
+
+h2{
+	font-size: 3em;
+	margin: 20px 0 0.5em;
+}
+
+h3{
+	font-size: 3em;
+	margin-bottom: 1.7em;
+	color: white;
+}
+
+#primera, header, footer{
+	text-align: center;
+}
+
+#primera{
+	padding-top: 60px;
+	padding-bottom: 60px;
+	border-bottom: 10px solid #ffa949;
+}
+
+#segunda{
+	padding-top: 80px;
+	padding-bottom: 70px;
+	border-bottom: 2px solid #dfe2e6;/*dfe2e6*/
+}
+
+footer{
+	padding-top: 30px;
+	padding-bottom: 60px;
+	border-bottom: 10px solid #ffa949;
+	font-size: 20px;
+}
+
+.facilidad{
+	padding: 2px 16px
+	color: white;
+	text-align: center;
+	padding:18% 24%;
+	border-top: 10px solid #ffa949;
+	margin: 105px 0 60px*/;
+	background: url("../img/GYM1.jpg") no-repeat center;
+	border-radius: 50%;
+}
+
+.presencia{
+	padding: 2px 16px
+	color: white;
+	text-align: center;
+	padding:18% 24%;
+	border-top: 10px solid #ffa949;
+	margin: 105px 0 60px*/;
+	background: url("../img/GYM3.jpg") no-repeat center;
+	border-radius: 50%;
+}
+
+
+.l{
+	font-size: 1.25em;
+	border-bottom: 3px solid;
+	text-decoration: none;
+	padding: 0 9px 3px;
+	margin-top: 20px;
+}
+
+#segunda:after{/*Despues del selector*/
+	content: "";/*Inserta un valor Nulo*/
+	display: block;/*Convertimos a un elemnto de Bloque*/
+	clear: both;/*Especifica si un elemento puede estar al lado de elementos que lo preceden*/
+}
+
+.intro{
+	text-align: center;
+	color: black;
+	font-size: 30px;
+}
+
+.inscripcion{
+	padding: 0 0px
+	color: white;
+	text-align: center;
+	padding:10% 0%;
+	border-top: 0px solid #ffa949;
+	margin: 0px 0 0px*/;
+	background: url("../img/GYM4.jpg") no-repeat center;
+}
+
+#boton{
+	text-align: center;
+	color: white;
+	background-color: red;
+	font-size: 20px;
+}
+
+.que{
+	font-size: 30px;
+}
+
+.Sabias_que{
+	padding: 0 0px;
+	color: black;
+	text-align: center;
+	font-size: 30px;	
+	border-top: 0px solid #ffa949;
+}
+
+.saber{
+	color: black;
+	text-align: center;
+	font-size: 50px;
+}
+
+main{
+	position: relative;
+	top: 70px;
+	display: inline-block;
+	padding-bottom: 0px;
+	width: 100%;
+	text-align: center;
+}
+
+.p2{
+	font-size;20px;
+	color;black;
+}

@@ -1,0 +1,217 @@
+
+@media screen and (max-width: 1800px) and (min-width: 990px){
+	header{
+		padding-top: 170px;
+		height: 400px;
+		background: 
+		url("../img/guarderia1.jpg") no-repeat center;
+		background-size: cover;
+
+	}
+	body{
+		color: white;
+		background-color: black;
+		
+	}
+
+	nav{
+		background-color:#0D0D0D; 
+		position: fixed;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: auto;
+		z-index: 99;
+	}
+	nav ul{
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		display: inline-block;
+		margin-left: 25px;
+		vertical-align: bottom;
+	}
+
+	nav ul > li {
+		display: inline-block;
+		list-style: none;
+		background-color: #0D0D0D;
+		padding:18px 11px;
+		margin-right:-7px;
+		font-size: 25px;
+		font-weight:bold;
+	}
+
+	li a{
+		text-decoration: none;
+		display: block;
+		padding: 0px;
+		color: white;
+	}
+	.titulo{
+		color: #F24444;
+		font-size: 60px;
+		letter-spacing: 0.6em;
+		padding-bottom: 10px;
+	}
+	.subtitulo{
+		color: #730C02;
+		font-size: 30px;
+		letter-spacing: 0.6em;
+		padding-bottom: 10p
+	}
+	.cuestionario{
+			background-color:rgba(255 255 255 0.8);
+			width: 33%;
+			hyphens: 225px;
+			border-radius: 0 0 0 0px;
+			display: inline-block;
+			margin: 0px 0px;
+			text-align: left;
+			font-size: 20px;
+			color: white;
+		}
+
+		.contenedor{
+			text-align: center;
+		}
+		.spa{
+			text-align: center;
+			font-size: 40px;
+			color: white;
+		}
+		.imagen{
+			width: 400px;
+		}
+		.imageng{
+			height: 300px;
+			width: 400px;
+		}
+	}
+
+@media screen and (max-width: 990px) and (min-width: 600px){
+	header{
+		padding-top: 170px;
+		height: 400px;
+		background: 
+		url("../img/guarderiamediana.jpg") no-repeat center;
+		background-size: cover;
+
+	}
+		body{
+			color: white;
+			
+			
+
+		}
+		nav{
+			background-color:#F2C1B6; 
+			position: fixed;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: auto;
+			z-index: 99;
+		}
+		nav ul{
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: inline-block;
+			margin-left: 25px;
+			vertical-align: bottom;
+		}
+
+		nav ul > li {
+			display: inline-block;
+			list-style: none;
+			background-color:#F2C1B6 ;
+			padding:18px 11px;
+			margin-right:-7px;
+			font-size: 20px;
+			font-weight:bold;
+		}
+
+		li a{
+			display: block;
+			padding: 0px;
+			text-decoration: none;
+			color: white;
+		}
+		}
+
+@media screen and (max-width: 600px) and (min-width: 0px){
+	header{
+		padding-top: 170px;
+		height: 400px;
+		background: 
+		url("../img/guarderiachica.jpg") no-repeat center;
+		background-size: cover;
+
+	}
+	body{
+			color: white;
+			
+		
+
+		}
+		
+		nav{
+			background-color:#038C73; 
+			position: fixed;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: auto;
+			z-index: 99;
+		}
+		nav ul{
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: inline-block;
+			margin-left: 25px;
+			vertical-align: bottom;
+		}
+
+		nav ul > li {
+			display: inline-block;
+			list-style: none;
+			background-color: #038C73;
+			padding:18px 11px;
+			margin-right:-7px;
+			font-size: 20px;
+			font-weight:bold;
+		}
+
+		li a{
+			color: white;
+			display: block;
+			padding: 0px;
+			text-decoration: none;
+		}
+	}
+
+
+
+#primera, header, footer{
+	text-align: center;
+}
+
+
+#segunda{
+	padding-top: 80px;
+	padding-bottom: 70px;
+	border-bottom: 2px solid #dfe2e6;
+}
+
+footer{
+	padding-top: 30px;
+	padding-bottom: 60px;
+	border-bottom: 10px solid #ffa949;
+	font-size: 20px;
+}
+
+.p2{
+	color;white;
+}
